@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.member-card {
+    width: 400px;
+    
+    border: solid 3px rgb(75,0,130);
+    padding: 15px;
+    margin: 10px; 
+}
+
+.members-list-menu {
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.menu {
+    font-weight: bold;
+    padding-right: 5px;
+
+}
+
+.button-container {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: end;
+   
+    button {
+        width: 70px;
+        cursor: pointer;
+        background-color: rgba(230,230,250);
+        
+    }
+}
